@@ -1,11 +1,16 @@
 .news-title {
     text-align: center;
-    font-size:50px;
-    font-weight: 100;
+    font-size:60px;
+    font-weight: normal;
+    font-family:'Great Vibes'; 
+    margin: 60px 0;  
 }
 .heading{
     text-align: center;
-    font-weight: 100;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+    margin: 15px 0;
 }
 .left-side {
     border: 3px solid;
@@ -13,6 +18,7 @@
     border-right: 1px solid;
     width: 20%;
     padding: 10px;
+    line-height: 1.5;
 
 }
 .middle-side{
@@ -21,40 +27,75 @@
     border-right: 1px solid;
     width: 60%;
     padding: 10px;  
-    
+    line-height: 1.5;
+    font-size: 16px;
+
 }
 .right-side{
     border: 3px solid;
     border-left: 1px solid;
     border-right: 1px solid;
     width: 20%; 
-    padding: 10px; 
+    padding: 10px;
+    line-height: 1.5; 
 }
 
 .flex-container {
     display: flex;
+    align-items: stretch;
     width: 100%;
-}
-.pic{
-    width: 500px;   
-}
-.bottom-middle{
-    border-top: 3px;
-    display: flex; 
-    flex-direction: column;
-    width: 80%; 
-}
-.box{
-    height: 100px;
-}
-.box > h1{
-margin-top: 30px;
-padding-left: 30px;
-}
+}  
 .bottom-left-side{
     border: 3px solid;
     border-left: 1px solid;
     border-right: 1px solid;
-    width: 20%;
-    padding: 10px;
+    width: 390px;
+    padding: 10px;  
+    line-height: 1.5;
+    font-size: 16px;
+    
+}
+
+.three-quarter{
+    width: 75%;
+
+}
+.nav-list{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+    border: 3px;
+    border-left: 1px;
+    border-right: 1px;
+
+}
+.nav-item{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 30px;
+    color: #555;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-item a {
+    text-decoration: none;
+    color: #555
+}
+.nav-item a:hover{
+    text-decoration: underline;
+}
+.nav-item:nth-child(1){background-color: #ffeaa5;
+}
+.nav-item:nth-child(2){background-color: #81ecec;
+}
+.nav-item:nth-child(3){background-color: #55efc4;
+}
+.nav-item:nth-child(4){background-color: #74b9ff;
+}
+.nav-item:nth-child(5){background-color: #a29bfe;
 }
